@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    color: cyan;
+}
+.bg-info{
+    background-color: palevioletred !important;
+    border-radius: 15%;
+}
+.btn-outline-info:hover {
+    color: cyan !important;
+    border-color: purple !important;
+    background-color: purple !important;
+  }
+.navbar{
+    background-color: black !important;
+}
+.nav-item{
+    color: cyan !important;
+}
+.nav-item a:hover{
+    border-bottom: 2px solid purple !important;
+    padding-bottom: 4px;
+}
+.nav-link{
+    color: cyan !important;
+}
+.dropdown-menu{
+    background-color: black !important;
+}
+.dropdown-item:hover{
+    background-color: purple !important;
+}
+.dropdown-item{
+    color: cyan !important;
+}
+.arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid purple;
+    margin-left: 5px; 
+    transform: rotate(270deg);
+  }
+  
+
+/* carousel */
+#carouselExampleFade {
+    height: 40vh; 
+    overflow: hidden; 
+  }
+  
+  .carousel-inner {
+    height: 100%; 
+  }
+  
+  .carousel-item img {
+    object-fit: cover; 
+    -o-object-fit: contain;
+    height: 100%; 
+    width: 100%;
+  }
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+.badge-container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#latest-badge{
+    background-color: rgb(43, 31, 55);
+    color: rgb(84, 131, 125);
+}
+
+.card-body{
+    background-color: rgb(63, 29, 63) !important;
+    color: cyan !important;
+}
+
+.watchHere{
+    color: cyan !important;
+    background-color: purple !important;
+}
+
+.explore{
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.explore:hover{
+    cursor: pointer;
+    color: cyan !important;
+    background-color: purple !important;
+    border-color: purple !important;
+}
+
+.top5list{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(54, 39, 54) !important;
+}
+#top5{
+    color: rgb(84,131,125) !important;
+}
+
+
+
+.pagination{
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.pagegrp{
+    background-color: rgb(56, 21, 56) !important;
+    color: rgb(84,131,125) !important;
+}
